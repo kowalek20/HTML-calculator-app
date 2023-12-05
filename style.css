@@ -1,0 +1,187 @@
+body {
+  margin: 0;
+}
+.calculator {
+  background-color: black;
+  text-align: center;
+}
+.text{
+    margin: 0;
+    height: 10vh;
+    width: 28vh;
+    background-color: black;
+}
+
+em {
+  font-size: 30px;
+  color: white;
+}
+.button-1 {
+  height: 7vh;
+  width: 7vh;
+  border-radius: 100px;
+  font-size: 20px;
+  font-weight: bold;
+  font-weight: 700;
+  background-color: #a0a0a0;
+}
+.button-2 {
+    height: 7vh;
+    width: 7vh;
+  border-radius: 100px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #a0a0a0;
+}
+.button-3 {
+    height: 7vh;
+    width: 7vh;
+  border-radius: 100px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #a0a0a0;
+}
+.button-4 {
+    height: 7vh;
+    width: 7vh;
+  border-radius: 100px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  background-color: orange;
+}
+.button-5 {
+    height: 7vh;
+    width: 7vh;
+  border-radius: 100px;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  background-color: #505050;
+}
+.button-6 {
+    height: 7vh;
+    width: 7vh;
+  border-radius: 100px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  background-color: #505050;
+}
+.button-7 {
+    height: 7vh;
+    width: 7vh;
+  border-radius: 100px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  background-color: #505050;
+}
+.button-8 {
+    height: 7vh;
+    width: 7vh;
+  border-radius: 100px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  background-color: orange;
+}
+.button-9 {
+    height: 7vh;
+    width: 7vh;
+  border-radius: 100px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  background-color: #505050;
+}
+.button-10 {
+    height: 7vh;
+    width: 7vh;
+  border-radius: 100px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  background-color: #505050;
+}
+.button-11 {
+    height: 7vh;
+    width: 7vh;
+  border-radius: 100px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  background-color: #505050;
+}
+.button-12 {
+    height: 7vh;
+    width: 7vh;
+  border-radius: 100px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  background-color: orange;
+}
+.button-13 {
+    height: 7vh;
+    width: 7vh;
+  border-radius: 100px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  background-color: #505050;
+}
+.button-14 {
+    height: 7vh;
+    width: 7vh;
+  border-radius: 100px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  background-color: #505050;
+}
+.button-15 {
+    height: 7vh;
+    width: 7vh;
+  border-radius: 100px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  background-color: #505050;
+}
+.button-16 {
+    height: 7vh;
+    width: 7vh;
+  border-radius: 100px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  background-color: orange;
+}
+.button-ZERO {
+    height: 6vh;
+    width: 15vh;
+  border-radius: 100px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  background-color: #505050;
+}
+.button-18 {
+    height: 7vh;
+    width: 7vh;
+  border-radius: 100px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  background-color: #505050;
+}
+.button-19 {
+    height: 7vh;
+    width: 7vh;
+  border-radius: 100px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  background-color: orange;
+}
