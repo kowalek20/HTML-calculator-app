@@ -1,46 +1,46 @@
 <!DOCTYPE html>
 <html lang="pl">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="script.js"></script>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="calculator">
-        <div class="NavBar">
-            <input type="text" id="display" disabled class="text">
-        </div>
-        <div class="buttons1">
-            <input type="button" value="AC" class="button-1">
-            <input type="button" value="+/-"class="button-2">
-            <input type="button" value="%" class="button-3">
-            <input type="button" value="/" class="button-4">
-        </div>
-        <div class="buttons2">
-            <input type="button" value="7"class="button-5">
-            <input type="button" value="8" class="button-6">
-            <input type="button" value="9" class="button-7">
-            <input type="button" value="x" class="button-8">
-        </div>
-        <div class="buttons3">
-            <input type="button" value="4" class="button-9">
-            <input type="button" value="5" class="button-10">
-            <input type="button" value="6" class="button-11">
-            <input type="button" value="-" class="button-12">
-        </div>
-        <div class="buttons4">
-            <input type="button" value="1" class="button-13">
-            <input type="button" value="2" class="button-14">
-            <input type="button" value="3" class="button-15">
-            <input type="button" value="+" class="button-16">
-        </div>
-        <div class="buttons5">
-            <input type="button" value="0" class="button-ZERO">
-            <input type="button" value="," class="button-18">
-            <input type="button" value="=" class="button-19">
-        </div>
-</div>
-</body>
+      <div class="NavBar">
+        <input type="text" id="display" disabled class="text" />
+      </div>
+      <div class="buttons1">
+        <button class="button-1" onclick="calculate()">AC</button>
+        <button class="button-2" onclick="calculate()">+/-</button>
+        <button class="button-3" onclick="calculate('%')">%</button>
+        <button class="button-4" onclick="calculate('/')">÷</button>
+      </div>
+      <div class="buttons2">
+        <button class="button-5" onclick="calculate('7')">7</button>
+        <button class="button-6" onclick="calculate('8')">8</button>
+        <button class="button-7" onclick="calculate('9')">9</button>
+        <button class="button-8" onclick="calculate('*')">x</button>
+      </div>
+      <div class="buttons3">
+        <button class="button-9" onclick="calculate('4')">4</button>
+        <button class="button-10" onclick="calculate('5')">5</button>
+        <button class="button-11" onclick="calculate('6')">6</button>
+        <button class="button-12" onclick="calculate('-')">-</button>
+      </div>
+      <div class="buttons4">
+        <button class="button-13" onclick="calculate('1')">1</button>
+        <button class="button-14" onclick="calculate('2')">2</button>
+        <button class="button-15" onclick="calculate('3')">3</button>
+        <button class="button-16" onclick="calculate('+')">+</button>
+      </div>
+      <div class="buttons5">
+        <button class="button-ZERO" onclick="calculate('0')">0</button>
+        <button class="button-18" onclick="calculate('.')">.</button>
+        <button class="button-19" onclick="wynik('=')">=</button>
+      </div>
+    </div>
+  </body>
 </html>
